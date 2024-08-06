@@ -1,0 +1,30 @@
+*{
+    padding : 0;
+    margin : 0;
+}
+html , body{
+    overflow : hidden;
+}
+.divBtn {
+    position : absolute;
+    width : 100%;
+    height : 200px;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+button{
+    border : 0;
+    padding : 10px;
+    border-radius : 50%;
+    cursor : pointer;
+    
+}
+.buttonOn {
+    background-color : green;
+    color : white;
+}
+.buttonOff{
+    background-color : red;
+    color : white;
+}
